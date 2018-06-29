@@ -1,0 +1,155 @@
+@charset "shift_jis";
+
+/*----Start--Header----------*/
+#header {
+  width: 1050px;
+  height: 90px;
+  margin: 20px;
+
+}
+#Logo {
+  width: 1050px;
+  height:90px;
+}
+
+.Logo_img {
+  width:150px;
+  height: 100px;
+}
+
+#Logo h2{
+  margin 0;
+}
+
+#header h1 {
+  width: 1050px;
+  height: 55px;
+  margin: 0;
+}
+
+#Line_1 {
+  height: 30px;
+}
+.Line_1 {
+  width: 600px;
+  height: 10px;
+}
+/*----Start--navi----------*/
+
+#navi {
+  position absolute;
+  top: 200px;
+  left: 50px;
+  width: 1050px;
+  height: 50px;
+}
+
+#navi ul {
+  margin: 0;
+  padding-left: 0px;
+  padding-top: 1px;
+}
+
+#navi li {
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+.navi_home {
+  height: 40px;
+  width: 100px;
+}
+
+.navi_linux {
+  height: 40px;
+  width: 100px;
+}
+
+.navi_ec {
+  height: 40px;
+  width: 100px;
+}
+
+.navi_3dp {
+  height: 40px;
+  width: 100px;
+}
+
+.navi_others {
+  height: 40px;
+  width: 100px;
+}
+
+/*-----pagebody-----*/
+#pagebody {
+  width: 1050px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: 1050px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----_main-----------*/
+#main {
+  width: 670px;
+  height: 800px;
+  float: right;
+}
+
+#main h1{
+  height:20px;
+}
+
+#main p{
+  word-wrap: break-word;
+}
+
+/*-----_navi-----*/
+#navi_ec{
+  width: 380px;
+  height: 800px;
+  float: left;
+}
+
+/*
+.navi_ec_img{
+  position:absolute;
+  width: 380px;
+  height: 800px;
+  float: left;
+}
+*/
+/*
+.navi_ec_txt{
+  position:relative;
+  top: 80px;
+  float: left;
+}
+*/
+/*.back_menu_list{
+  width: 380px;
+  height:800px;
+}
+*/
+
+#navi_ec_txt h1{
+  height: 5px;
+}
+
+#navi_ec_txt h5{
+  height: 5px;
+  text-indent: 4em;
+}
+.kicad_open_window{
+  width: 670px;
+  height:450px;
+}
+
+/*---------footer------------*/

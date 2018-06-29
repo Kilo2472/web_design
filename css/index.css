@@ -1,0 +1,136 @@
+@charset "shift_jis";
+
+/*----Start--Whole_Page----------*/
+body{
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: #333333;
+  background: #FFFFFF;
+repeat-y;
+}
+h1, h2, d1 {
+  margin 0;
+}
+
+p {
+  margin 0;
+}
+/*----Finish--Whole_Page----------*/
+
+/*----Start--Header----------*/
+#header {
+  width: 1050px;
+  height: 300px;
+
+}
+#Logo {
+  width: 720px;
+  height:195px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Logo_img {
+  width: 250px;
+  height: 200px;
+}
+
+#Logo h2{
+  margin 0;
+}
+#Summary{
+  width: 1000px;
+  height: 200px;
+  font-family: "ヒラギノ角ゴ StdN W8",Hiragino Kaku Gothic StdN;
+}
+
+#header h1 {
+  width: 1000px;
+  height: 55px;
+  margin: 0;
+}
+
+/*-----Create four blocks-------*/
+#pagebody {
+  width: 1000px;
+  height: 200px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main_space {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+#main_li {
+  /*position: relative;*/
+  width: 150px;
+  height: 150px;
+  float: left;
+  background: url(../images/Left1.jpg);
+  background-size: 150px 150px;
+}
+
+/*
+.Linux_txt {
+  position: absolute;
+  left: 100px;
+  bottom:100px;
+}
+
+.Linux_img{
+  position: absolute;
+  width:625px;
+  height:190px;
+}
+*/
+
+/*
+#Linux_picture{
+  position: absolute;
+  width:100px;
+  height:200px;
+}
+*/
+
+#main_ec {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background: url(../images/Right1.jpg);
+  background-size: 150px 150px;
+}
+
+#main_3dp {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background: url(../images/Left2.jpg);
+  background-size: 150px 150px;
+}
+
+#main_other {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background: url(../images/Left2.jpg);
+  background-size: 150px 150px;
+}
+
+#main_space {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+/*NEWS AREA*/
+#List {
+  width: 1000px;
+  height: 200px;
+}
