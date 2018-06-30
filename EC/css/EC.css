@@ -100,7 +100,7 @@
 #main {
   width: 670px;
   height: 800px;
-  float: right;
+  float: left;
 }
 
 #main h1{
@@ -140,7 +140,7 @@
 */
 
 #navi_ec_txt h1{
-  height: 5px;
+  height: 1px;
 }
 
 #navi_ec_txt h5{
